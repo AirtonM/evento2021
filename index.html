@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+    <!-- TODOS OS LINKS -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Primeira Página de Evento Feita Por Mim</title>
+        <!-- https://fontawesome.com/ -->
+        <script src="js/all.js"></script>
+        <link href="css/all.css" rel="stylesheet" type="text/css">
+        <!-- simple-line-icons -->
+        <link href="css/simple-line-icons.min.css" rel="stylesheet" type="text/css">
+        <!-- Google Fontes -->
+        <link href="css/fontes.css" rel="stylesheet" type="text/css">
+        <!-- Start Bootstrap - Stylish Portfolio v6.0.4 -->
+        <link href="css/estiloSP.css" rel="stylesheet" type="text/css">
+        <!-- Estilo Customizado da UFPA -->
+        <link href="css/estiloUepaCustomizado.css" rel="stylesheet" type="text/css">
+        <!-- Estilo Customizado Desconhecido... SSS acredito eu, não sei se fizeram ou copiaram de algum lugar -->
+        <link href="css/estiloDesconhecido.css" rel="stylesheet" type="text/css">
+        <!-- glide-3.4.1 -->
+        <link href="css/glide.core.min.css" rel="stylesheet" type="text/css">
+        <link href="css/glide.theme.min.css" rel="stylesheet" type="text/css">
+        <script src="js/glide.min.js"></script>
+    </head>
+
+    <!-- NAVEGAÇÃO -->
+    <body id="page-top">
+        <!-- ÍNICIO - Ícones das Redes Sociais DIV TOP FIXA -->
+        <div class="social-icons-top">
+            <ul class="list-inline mb-5 text-center">
+                <!-- LINK UEPA -->
+                <li class="list-inline-item">
+                    <a class="mr-3" target="_blank" href="https://www.uepa.br/">
+                        <!-- ÍCONE SVG -->
+                        <svg class="svg-inline--fa fa-globe fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg="">
+                            <path fill="currentColor" d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <!-- LINK YOUTUBE -->
+                <li class="list-inline-item">
+                    <a class="mr-3" target="_blank" href="https://www.youtube.com/">
+                        <!-- ÍCONE SVG -->
+                        <svg class="svg-inline--fa fa-youtube fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                            <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <!-- LINK FACEBOOK -->
+                <li class="list-inline-item">
+                    <a class="mr-3" target="_blank" href="https://pt-br.facebook.com/">
+                        <!-- ÍCONE SVG -->
+                        <svg class="svg-inline--fa fa-facebook fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                            <path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <!-- LINK INSTAGRAM -->
+                <li class="list-inline-item">
+                    <a class="mr-3" target="_blank" href="https://www.instagram.com/sem/campaign/emailsignup/?campaign_id=13534421690&extra_1=s|c|547348930978|e|isnta|&placement=&creative=547348930978&keyword=isnta&partner_id=googlesem&extra_2=campaignid%3D13534421690%26adgroupid%3D126262409974%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-336227006116%26loc_physical_ms%3D9101665%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiAm7OMBhAQEiwArvGi3IIfWYTUP-Eaw19AkAAw5S6ypD47A2-PNZeOg1mixqOo0aK4M5uTuBoCvngQAvD_BwE">
+                        <!-- ÍCONE SVG -->
+                        <svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                            <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <!-- LINK TWITER -->
+                <li class="list-inline-item">
+                    <a class="mr-3" target="_blank" href="https://twitter.com/?lang=pt">
+                        <!-- ÍCONE SVG -->
+                        <svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                            <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- FIM - Ícones das Redes Sociais DIV TOP FIXA -->
+
+        <!-- ÍNICIO - Menu -->
+            <!-- Botão Menu -->
+            <a class="menu-toggle rounded" href="#">
+                <svg class="svg-inline--fa fa-bars fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                    <path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                    </path>
+                </svg>
+            </a>
+            <!-- Ítens do Menu -->
+            <nav id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="#cabecalho">
+                            TESTE 1
+                        </a>
+                    </li>
+                    <li class="sidebar-nav-item">
+                        <a href="#evento2021">
+                            TESTE 2
+                        </a>
+                    </li>
+                    <li class="sidebar-nav-item">
+                        <a href="#portfolio">
+                            TESTE 3
+                        </a>
+                    </li>
+                    <li class="sidebar-nav-item">
+                        <a href="#grade">
+                            TESTE 4
+                        </a>
+                    </li>
+                    <li class="sidebar-nav-item">
+                        <a href="#inscricao">
+                            TESTE 5
+                        </a>
+                    </li>
+                    <li class="sidebar-nav-item">
+                        <a href="#assistaOnline">
+                            TESTE 6
+                        </a>
+                    </li>
+                </ul>
+            </nav>   
+        <!-- FIM - Menu -->
+
+        <div class="overlay" id="boasVindas">
+            <video muted="true" id="vinheta" controlslist="nodownload" onended="fimVideo()" style="  width: 100%;
+            height: 100%;">
+                <source src="video/intro.mp4" type="video/mp4">
+            </video>
+            <button class="fecharVideo" id="botaoFecharVideo" onclick="fimVideo()">
+                <svg class="svg-inline--fa fa-times fa-w-11" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" data-fa-i2svg=""><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+            </button>
+            <button class="volume" id="botaoSom" onclick="alternarSom()">
+                <svg class="svg-inline--fa fa-volume-mute fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="volume-mute" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z"></path></svg>
+            </button>
+        </div>
+
+        <!-- ÍNICIO - Cabeçalho -->
+        <header class="masthead d-flex align-items-center" id="cabecalho">
+            <!-- Slides -->
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="divSlideMasthead">
+                    <a href="#">
+                        <img id="slideMasthead1" class="slideMasthead" src="image/uepaCampusXx.png" style="display: none;">
+                    </a>
+                    <a href="#">
+                        <img id="slideMasthead2" class="slideMasthead" src="image/uepaReitoriaInterior.jpg" style="">
+                    </a>
+                </div>
+            </div>
+            <!-- Botão Anterior -->
+            <button id="btnAnterior" class="btnMasthead" onclick="plusSlides(-1)">
+                <!-- ÍCONE SVG -->
+                <svg class="svg-inline--fa fa-chevron-left fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                    <path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+                    </path>
+                </svg>
+            </button>
+            <!-- Botão Proximo -->
+            <button id="btnProximo" class="btnMasthead" onclick="plusSlides(1)">
+                <!-- ÍCONE SVG -->
+                <svg class="svg-inline--fa fa-chevron-right fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                    <path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                    </path>
+                </svg>
+            </button>
+            <br>
+            <!-- Botão Saiba Mais -->
+            <button id="btnSaibaMais" class="btnMasthead" onclick="document.getElementById(&#39;seminic2021&#39;).scrollIntoView();">SAIBA MAIS<br>
+                <!-- ÍCONE SVG -->
+                <svg class="svg-inline--fa fa-chevron-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                    <path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+                    </path>
+                </svg>
+            </button>
+        </header>
+        <!-- FIM - Cabeçalho -->
+
+        <!-- ÍNICIO - Sessão Evento 2021 -->
+        <section class="content-section text-center custom-height" id="evento2021">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="content-section-heading text-center mb-5">
+                        <h2 class="mb-5">Evento 2021</h2>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-5">
+                        <button class="service-icon rounded-circle mx-auto mb-3 btn-info " id="apresentacaoBtn" onclick="location.assign('http://www.mozilla.org');">
+                            <svg class="svg-inline--fa fa-chalkboard-teacher fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="chalkboard-teacher" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M208 352c-2.39 0-4.78.35-7.06 1.09C187.98 357.3 174.35 360 160 360c-14.35 0-27.98-2.7-40.95-6.91-2.28-.74-4.66-1.09-7.05-1.09C49.94 352-.33 402.48 0 464.62.14 490.88 21.73 512 48 512h224c26.27 0 47.86-21.12 48-47.38.33-62.14-49.94-112.62-112-112.62zm-48-32c53.02 0 96-42.98 96-96s-42.98-96-96-96-96 42.98-96 96 42.98 96 96 96zM592 0H208c-26.47 0-48 22.25-48 49.59V96c23.42 0 45.1 6.78 64 17.8V64h352v288h-64v-64H384v64h-76.24c19.1 16.69 33.12 38.73 39.69 64H592c26.47 0 48-22.25 48-49.59V49.59C640 22.25 618.47 0 592 0z">
+                                </path>
+                            </svg>
+                        </button>
+                        <h4><strong>Apresentação</strong></h4>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-5">
+                        <button class="service-icon rounded-circle mx-auto mb-3 btn-success " id="comiteExternoBtn" onclick="location.assign('http://www.mozilla.org');">
+                            <svg class="svg-inline--fa fa-caravan fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="caravan" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M416,208a16,16,0,1,0,16,16A16,16,0,0,0,416,208ZM624,320H576V160A160,160,0,0,0,416,0H64A64,64,0,0,0,0,64V320a64,64,0,0,0,64,64H96a96,96,0,0,0,192,0H624a16,16,0,0,0,16-16V336A16,16,0,0,0,624,320ZM192,432a48,48,0,1,1,48-48A48.05,48.05,0,0,1,192,432Zm64-240a32,32,0,0,1-32,32H96a32,32,0,0,1-32-32V128A32,32,0,0,1,96,96H224a32,32,0,0,1,32,32ZM448,320H320V128a32,32,0,0,1,32-32h64a32,32,0,0,1,32,32Z">
+                                </path>
+                            </svg>
+                        </button>
+                        <h4><strong>Comitê Externo</strong></h4>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-5">
+                        <button class="service-icon rounded-circle mx-auto mb-3 btn-warning " id="organizacaoBtn" onclick="location.assign('http://www.mozilla.org');">
+                            <svg class="svg-inline--fa fa-city fa-w-18" aria-hidden="true" focusable="false" data-prefix="fax" data-icon="city" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M616 192H480V24c0-13.26-10.74-24-24-24H312c-13.26 0-24 10.74-24 24v72h-64V16c0-8.84-7.16-16-16-16h-16c-8.84 0-16 7.16-16 16v80h-64V16c0-8.84-7.16-16-16-16H80c-8.84 0-16 7.16-16 16v80H24c-13.26 0-24 10.74-24 24v360c0 17.67 14.33 32 32 32h576c17.67 0 32-14.33 32-32V216c0-13.26-10.75-24-24-24zM128 404c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm128 192c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm160 96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12V76c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm160 288c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40z">
+                                </path>
+                            </svg>
+                        </button>
+                        <h4><strong>Organização</strong></h4>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-5">
+                        <button class="service-icon rounded-circle mx-auto mb-3 btn-danger " id="edicoesAnterioresBtn" onclick="location.assign('http://www.mozilla.org');">
+                            <svg class="svg-inline--fa fa-bookmark fa-w-18 " aria-hidden="true" focusable="false" data-prefix="fax" data-icon="bookmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M352 96c0-53.02-42.98-96-96-96s-96 42.98-96 96 42.98 96 96 96 96-42.98 96-96zM233.59 241.1c-59.33-36.32-155.43-46.3-203.79-49.05C13.55 191.13 0 203.51 0 219.14v222.8c0 14.33 11.59 26.28 26.49 27.05 43.66 2.29 131.99 10.68 193.04 41.43 9.37 4.72 20.48-1.71 20.48-11.87V252.56c-.01-4.67-2.32-8.95-6.42-11.46zm248.61-49.05c-48.35 2.74-144.46 12.73-203.78 49.05-4.1 2.51-6.41 6.96-6.41 11.63v245.79c0 10.19 11.14 16.63 20.54 11.9 61.04-30.72 149.32-39.11 192.97-41.4 14.9-.78 26.49-12.73 26.49-27.06V219.14c-.01-15.63-13.56-28.01-29.81-27.09z">
+                                </path>
+                            </svg>
+                        </button>
+                        <h4><strong>Edições Anteriores</strong></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM - Sessão Evento 2021 -->
+        
+        <!-- ÍNICIO - Sessão Fique por Dentro -->
+        <section class="content-section saibaMais" id="portfolio" style="background-color: #e0d0ff !important; color: #2e3192 !important;">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h2 class="mb-5">FIQUE POR DENTRO</h2>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#">
+                            <img class="img-fluid fiqueDentro" src="image/uepaCampusXx.png" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#">
+                            <img class="img-fluid fiqueDentro" src="image/uepaReitoriaInteriorLotado.jpg" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#">
+                            <img class="img-fluid fiqueDentro" src="image/uepaReitoriaInterior.jpg" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#">
+                            <img class="img-fluid fiqueDentro" src="image/uepaReitoriaFrenteDireita.jpg" alt="...">
+                        </a>
+                    </div>                
+                </div>
+            </div> 
+        </section>
+        <!-- FIM - Sessão Fique por Dentro -->
+
+        <!-- ÍNICIO - Grade de Pessoas -->
+        <section class="content-section" id="grade" style="background-color: #2e3192; color:white;">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-2" style="color: #b1b3e7;">LIVES NAS REDES SOCIAIS DA UEPA</h2>
+            </div>
+            <div class="glide glide--ltr glide--carousel glide--swipeable">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides text-center" style="transition: transform 0ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s; width: 6785px; transform: translate3d(-1359px, 0px, 0px);">
+                        <li class="glide__slide glide__slide--clone" style="width: 1349px; margin-right: 5px;">
+                            <h3 class="text-center mb-4">Destaque Lorem Ipson </h3>
+                            <h3 class="text-center mb-4" style="color: #b1b3e7;">GRID 01 01 01 01 01</h3>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide glide__slide--clone" style="width: 1349px; margin-right: 5px;">
+                            <h3 class="text-center mb-4">Destaque Lorem Ipson </h3>
+                            <h3 class="text-center mb-4" style="color: #b1b3e7;">GRID 01 01 01 01 01</h3>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide glide__slide--clone" style="width: 1349px; margin-right: 5px;">
+                            <h3 class="text-center mb-4">Destaque Lorem Ipson </h3>
+                            <h3 class="text-center mb-4" style="color: #b1b3e7;">GRID 01 01 01 01 01</h3>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="&lt;" style="color: #efa91d; background-color: #641daa;"><svg class="svg-inline--fa fa-chevron-left fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg><!-- <i class="fas fa-chevron-left"></i> Font Awesome fontawesome.com --></button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir="&gt;" style="color: #efa91d; background-color: #641daa;"><svg class="svg-inline--fa fa-chevron-right fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg><!-- <i class="fas fa-chevron-right"></i> Font Awesome fontawesome.com --></button>
+                </div>
+                <div class="glide__bullets" data-glide-el="controls[nav]" style="margin-bottom: -50px;">
+                    <button class="glide__bullet glide__bullet--active" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
+                </div>
+            </div>   
+        </section>
+        <!-- FIM - Grade de Pessoas -->
+
+        <!-- ÍNICIO - Inscreva-se -->
+        <section class="content-section text-center" id="inscricao">
+            <div class="container px-4 px-lg-5">        
+                <div class="content-section-heading">
+                    <h2 class="mb-5">INSCREVA-SE</h2>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                        <button class="service-icon rounded-circle mx-auto mb-3 btn-primary rounded-circle-transparent" onclick="location.assign('http://www.mozilla.org');">
+                            <svg class="svg-inline--fa fa-home fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="home" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
+                                </path>
+                            </svg>
+                        </button>
+                        <h4><strong>Abertura</strong></h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                        <button class="service-icon rounded-circle mx-auto mb-3 btn-primary rounded-circle-transparent" onclick="location.assign('http://www.mozilla.org');">
+                            <svg class="svg-inline--fa fa-camera-retro fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="camera-retro" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M48 32C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48H48zm0 32h106c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H38c-3.3 0-6-2.7-6-6V80c0-8.8 7.2-16 16-16zm426 96H38c-3.3 0-6-2.7-6-6v-36c0-3.3 2.7-6 6-6h138l30.2-45.3c1.1-1.7 3-2.7 5-2.7H464c8.8 0 16 7.2 16 16v74c0 3.3-2.7 6-6 6zM256 424c-66.2 0-120-53.8-120-120s53.8-120 120-120 120 53.8 120 120-53.8 120-120 120zm0-208c-48.5 0-88 39.5-88 88s39.5 88 88 88 88-39.5 88-88-39.5-88-88-88zm-48 104c-8.8 0-16-7.2-16-16 0-35.3 28.7-64 64-64 8.8 0 16 7.2 16 16s-7.2 16-16 16c-17.6 0-32 14.4-32 32 0 8.8-7.2 16-16 16z">
+                                </path>
+                            </svg>
+                        </button>                        
+                        <h4><strong>Lives</strong></h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                        <button class="service-icon rounded-circle mx-auto mb-3 btn-primary rounded-circle-transparent" onclick="location.assign('http://www.mozilla.org');">
+                            <svg class="svg-inline--fa fa-wifi fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wifi" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M634.91 154.88C457.74-8.99 182.19-8.93 5.09 154.88c-6.66 6.16-6.79 16.59-.35 22.98l34.24 33.97c6.14 6.1 16.02 6.23 22.4.38 145.92-133.68 371.3-133.71 517.25 0 6.38 5.85 16.26 5.71 22.4-.38l34.24-33.97c6.43-6.39 6.3-16.82-.36-22.98zM320 352c-35.35 0-64 28.65-64 64s28.65 64 64 64 64-28.65 64-64-28.65-64-64-64zm202.67-83.59c-115.26-101.93-290.21-101.82-405.34 0-6.9 6.1-7.12 16.69-.57 23.15l34.44 33.99c6 5.92 15.66 6.32 22.05.8 83.95-72.57 209.74-72.41 293.49 0 6.39 5.52 16.05 5.13 22.05-.8l34.44-33.99c6.56-6.46 6.33-17.06-.56-23.15z">
+                                </path>
+                            </svg>
+                        </button>                        
+                        <h4><strong>Conferências</strong></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM - Inscreva-se -->
+
+        <!-- ÍNICIO - Online -->
+        <section class="content-section text-center bg-primary" id="assistaOnline" style="background-color: #dedff5 !important; color: #2e3192 !important;">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h2 class="mb-5">ONLINE</h2>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                        <button class="service-icon rounded-circle mx-auto mb-3 btn-facebook rounded-circle-transparent" onclick="location.assign('http://www.mozilla.org');">
+                            <svg class="svg-inline--fa fa-facebook fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+                                </path>
+                            </svg>
+                        </button>
+                        <h4><strong>Assista no Facebook</strong></h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                        <button class="service-icon rounded-circle mx-auto mb-3 btn-youtube rounded-circle-transparent"  onclick="location.assign('http://www.mozilla.org');">
+                            <svg class="svg-inline--fa fa-youtube fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                </path>
+                            </svg>
+                        </button>
+                        <h4><strong>Assista no YouTube</strong></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM - Online -->
+
+        <!-- ÍNICIO - Apoio -->
+        <section class="content-section text-center text-white bg-primary bg-opacity-75 custom-height" id="apoio">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg mb-5 mb-lg-0 alignVertical">
+                        <div class="content-section-heading">
+                            <h2 class="mb-5">APOIO</h2>
+                        </div>
+                        <div class="row justify-content-center gx-4 gx-lg-5">
+                            <div class="col-lg-2 mb-5 mb-lg-0 alignVertical" style="height: 150px;">
+                                <img src="image/logouepa.png" style="margin:auto; max-width: 150px; max-height: 150px;">
+                            </div>
+                            <div class="col-lg-2 mb-5 mb-lg-0 alignVertical" style="height: 150px;">
+                                <img src="image/logouepa.png" style="margin:auto; max-width: 150px; max-height: 150px;">
+                            </div>
+                            <div class="col-lg-2 mb-5 mb-lg-0 alignVertical" style="height: 150px;">
+                                <img src="image/logouepa.png" style="margin:auto; max-width: 150px; max-height: 150px;">
+                            </div>
+
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="row gx-4 gx-lg-5">
+        
+                    <div class="col-lg mb-5 mb-lg-0 alignVertical">
+                        <div class="content-section-heading">
+                            <br>
+                            <h2 class="mb-5">REALIZAÇÃO</h2>
+                            <br>
+                        </div>
+                        <div class="row justify-content-center gx-4 gx-lg-5">
+                            <div class="col-lg-2 mb-5 mb-lg-0 alignVertical" style="height: 150px;">
+                                <img src="image/logouepa.png" style="margin:auto; max-width: 150px; max-height: 150px;">
+                            </div>
+                            <div class="col-lg-2 mb-5 mb-lg-0 alignVertical" style="height: 150px;">
+                                <img src="image/logouepa.png" style="margin:auto; max-width: 150px; max-height: 150px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM -Apoio -->
+
+        <!-- BUGA TUDO NÃO DESBLOQUEAR -->
+        <!-- <script>
+            new Glide('.glide', {
+                type: 'carousel',
+                startAt: 0,
+                perView: 1,
+                // autoplay: 5000
+            }).mount();
+        </script> -->
+
+        <!-- ÍNICIO - Libras -->
+        <div vw="" class="enabled">
+            <div vw-access-button="" class="active"><img class="access-button" data-src="assets/component-ac.png" alt="Conteúdo acessível em libras usando o VLibras Widget com opções dos Avatares Ícaro ou Hozana." src="image/logouepa.png">
+                <img class="pop-up" data-src="assets/popup.png" alt="Conteúdo acessível em libras usando o VLibras Widget com opções dos Avatares Ícaro ou Hozana." src="image/uepaCampusXx.png">
+            </div>
+            <div vw-plugin-wrapper="">
+                <div vp="">
+                    <div vp-box=""></div>
+                        <div vp-message-box=""></div>
+                            <div vp-settings=""></div>
+                                <div vp-settings-btn=""></div>
+                                    <div vp-info-screen=""></div>
+                                        <div vp-dictionary=""></div>
+                                            <div vp-suggestion-screen=""></div>
+                                                <div vp-suggestion-button=""></div>
+                                                    <div vp-rate-box=""></div>
+                                                        <div vp-rate-button=""></div>
+                                                            <div vp-controls=""></div>
+                                                                <div vp-change-avatar=""></div>
+                </div>
+            </div>
+        </div>
+        <script src="js/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+        <!-- FIM - Libras -->
+
+
+        <!-- Botão de voltar pro top-->
+        <a class="scroll-to-top rounded" href="#page-top" style="opacity: -0.1; display: none;">
+            <svg class="svg-inline--fa fa-angle-up fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-up" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                <path fill="currentColor" d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z">
+                </path>
+            </svg>
+        </a>
+        
+        <!-- ÍNICIO - Inclusões de js -->
+        <!-- Bootstrap core JS-->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/scriptsStartBootstrap.js"></script>
+        <!-- Custom -->
+        <script src="../copiaEvento/XXXII Seminário de Iniciação Cientifíca UFPA_files/scripts_custom_024.js.download"></script>
+        <!-- FIM - Inclusões de js -->
+
+    </body>
+</html>
