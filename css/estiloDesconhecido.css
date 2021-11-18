@@ -234,7 +234,7 @@
     display: inline-block;
     width: 60px;
     height: 21px;
-    float: right;
+    /* float: right; */
     margin-top: -12px; }
   [vp] .vpw-switch input {
     opacity: 0;

@@ -373,3 +373,12 @@
   width: 540px;
   height: 270px;
 }
+
+.btnSaibaMais {
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;  
+  margin-top: -60px;
+  display: flex;
+}

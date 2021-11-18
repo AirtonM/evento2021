@@ -18,9 +18,9 @@
         <!-- Estilo Customizado Desconhecido... SSS acredito eu, não sei se fizeram ou copiaram de algum lugar -->
         <link href="css/estiloDesconhecido.css" rel="stylesheet" type="text/css">
         <!-- glide-3.4.1 -->
-        <link href="css/glide.core.min.css" rel="stylesheet" type="text/css">
-        <link href="css/glide.theme.min.css" rel="stylesheet" type="text/css">
-        <script src="js/glide.min.js"></script>
+        <link href="glide-3.4.1/dist/css/glide.core.min.css" rel="stylesheet" type="text/css">
+        <link href="glide-3.4.1/dist/css/glide.theme.min.css" rel="stylesheet" type="text/css">
+        <script src="glide-3.4.1/dist/glide.min.js"></script>
     </head>
 
     <!-- NAVEGAÇÃO -->
@@ -95,32 +95,37 @@
                 <ul class="sidebar-nav">
                     <li class="sidebar-brand">
                         <a href="#cabecalho">
-                            TESTE 1
+                            Evento 2021
                         </a>
                     </li>
                     <li class="sidebar-nav-item">
                         <a href="#evento2021">
-                            TESTE 2
+                            Evento
                         </a>
                     </li>
                     <li class="sidebar-nav-item">
                         <a href="#portfolio">
-                            TESTE 3
+                            Fique por Dentro
                         </a>
                     </li>
                     <li class="sidebar-nav-item">
                         <a href="#grade">
-                            TESTE 4
+                            Lives nas Redes Sociais
                         </a>
                     </li>
                     <li class="sidebar-nav-item">
                         <a href="#inscricao">
-                            TESTE 5
+                            Inscreva-se
                         </a>
                     </li>
                     <li class="sidebar-nav-item">
                         <a href="#assistaOnline">
-                            TESTE 6
+                            Online
+                        </a>
+                    </li>
+                    <li class="sidebar-nav-item">
+                        <a href="#apoio">
+                            Apoio e Realização
                         </a>
                     </li>
                 </ul>
@@ -141,7 +146,7 @@
         </div>
 
         <!-- ÍNICIO - Cabeçalho -->
-        <header class="masthead d-flex align-items-center" id="cabecalho">
+        <header class="masthead d-flex align-items-center bg-primary" id="cabecalho">
             <!-- Slides -->
             <div class="container px-4 px-lg-5 text-center">
                 <div class="divSlideMasthead">
@@ -150,6 +155,12 @@
                     </a>
                     <a href="#">
                         <img id="slideMasthead2" class="slideMasthead" src="image/uepaReitoriaInterior.jpg" style="">
+                    </a>
+                    <a href="#">
+                        <img id="slideMasthead3" class="slideMasthead" src="image/uepaReitoriaFrenteDireita.jpg" style="">
+                    </a>
+                    <a href="#">
+                        <img id="slideMasthead4" class="slideMasthead" src="image/uepaReitoriaInteriorLotado.jpg" style="">
                     </a>
                 </div>
             </div>
@@ -170,15 +181,18 @@
                 </svg>
             </button>
             <br>
-            <!-- Botão Saiba Mais -->
-            <button id="btnSaibaMais" class="btnMasthead" onclick="document.getElementById(&#39;seminic2021&#39;).scrollIntoView();">SAIBA MAIS<br>
+
+        </header>            
+        <!-- Botão Saiba Mais -->
+        <div class="btnSaibaMais">
+            <button id="btnSaibaMais" class="btnMasthead" onclick="document.getElementById(&#39;evento2021&#39;).scrollIntoView();">SAIBA MAIS<br>
                 <!-- ÍCONE SVG -->
                 <svg class="svg-inline--fa fa-chevron-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                     <path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
                     </path>
                 </svg>
             </button>
-        </header>
+        </div>
         <!-- FIM - Cabeçalho -->
 
         <!-- ÍNICIO - Sessão Evento 2021 -->
@@ -269,7 +283,7 @@
             <div class="glide glide--ltr glide--carousel glide--swipeable">
                 <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides text-center" style="transition: transform 0ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s; width: 6785px; transform: translate3d(-1359px, 0px, 0px);">
-                        <li class="glide__slide glide__slide--clone" style="width: 1349px; margin-right: 5px;">
+                        <li  class="glide__slide" >
                             <h3 class="text-center mb-4">Destaque Lorem Ipson </h3>
                             <h3 class="text-center mb-4" style="color: #b1b3e7;">GRID 01 01 01 01 01</h3>
                             <div class="row">
@@ -324,8 +338,34 @@
                                     <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                            </div>
                         </li>
-                        <li class="glide__slide glide__slide--clone" style="width: 1349px; margin-right: 5px;">
+                        <li  class="glide__slide " >
                             <h3 class="text-center mb-4">Destaque Lorem Ipson </h3>
                             <h3 class="text-center mb-4" style="color: #b1b3e7;">GRID 01 01 01 01 01</h3>
                             <div class="row">
@@ -380,8 +420,34 @@
                                     <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                            </div>
                         </li>
-                        <li class="glide__slide glide__slide--clone" style="width: 1349px; margin-right: 5px;">
+                        <li class="glide__slide">
                             <h3 class="text-center mb-4">Destaque Lorem Ipson </h3>
                             <h3 class="text-center mb-4" style="color: #b1b3e7;">GRID 01 01 01 01 01</h3>
                             <div class="row">
@@ -436,16 +502,55 @@
                                     <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
                                 </div>
                             </div>
-                        </li>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img class="img_perfil" src="image/aluno.jpg" alt="Imagem Aluno">
+                                    <p class="mt-3 mb-0 font-weight-bold nome_perfil">Airton Lima Marinho</p>
+                                    <p class="curso_perfil my-0 font-weight-bold">Orientador(a): Prof. Estevão dos Santos</p>
+                                    <p class="curso_perfil mt-0 font-weight-bold">CCNT - TADS</p>
+                                </div>
+                            </div>
+                        </li>                          
+                                                             
                     </ul>
                 </div>
                 <div class="glide__arrows" data-glide-el="controls">
-                    <button class="glide__arrow glide__arrow--left" data-glide-dir="&lt;" style="color: #efa91d; background-color: #641daa;"><svg class="svg-inline--fa fa-chevron-left fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg><!-- <i class="fas fa-chevron-left"></i> Font Awesome fontawesome.com --></button>
-                    <button class="glide__arrow glide__arrow--right" data-glide-dir="&gt;" style="color: #efa91d; background-color: #641daa;"><svg class="svg-inline--fa fa-chevron-right fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg><!-- <i class="fas fa-chevron-right"></i> Font Awesome fontawesome.com --></button>
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="&lt" style="color: #efa91d; background-color: #641daa;">
+                        <svg class="svg-inline--fa fa-chevron-left fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                            <path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+
+                            </path>
+                        </svg>
+                    </button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir="&gt" style="color: #efa91d; background-color: #641daa; " >
+                        <svg class="svg-inline--fa fa-chevron-right fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                            <path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+
+                            </path>
+                        </svg>
+                    </button>
                 </div>
                 <div class="glide__bullets" data-glide-el="controls[nav]" style="margin-bottom: -50px;">
                     <button class="glide__bullet glide__bullet--active" data-glide-dir="=0"></button>
-                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet " data-glide-dir="=1"></button>
                     <button class="glide__bullet" data-glide-dir="=2"></button>
                 </div>
             </div>   
@@ -567,14 +672,14 @@
         <!-- FIM -Apoio -->
 
         <!-- BUGA TUDO NÃO DESBLOQUEAR -->
-        <!-- <script>
+        <script>
             new Glide('.glide', {
                 type: 'carousel',
                 startAt: 0,
                 perView: 1,
                 // autoplay: 5000
             }).mount();
-        </script> -->
+        </script>
 
         <!-- ÍNICIO - Libras -->
         <div vw="" class="enabled">
@@ -598,7 +703,7 @@
                 </div>
             </div>
         </div>
-        <script src="js/vlibras-plugin.js"></script>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
         <script>
             new window.VLibras.Widget('https://vlibras.gov.br/app');
         </script>
@@ -620,8 +725,57 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/scriptsStartBootstrap.js"></script>
         <!-- Custom -->
-        <script src="../copiaEvento/XXXII Seminário de Iniciação Cientifíca UFPA_files/scripts_custom_024.js.download"></script>
+        <script src="js/scriptsVideo.js"></script>
         <!-- FIM - Inclusões de js -->
-
+        
+        <!-- ÍNICIO - Copyright -->
+        <footer class="footer text-center custom-height">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3 btn-primary" href="https://uepa.br/" target="_blank">
+                            <svg class="svg-inline--fa fa-globe fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="globe" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3 btn-primary" href="https://www.facebook.com/" target="_blank">
+                            <svg class="svg-inline--fa fa-facebook-f fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebbok-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3 btn-primary" href="https://www.instagram.com" target="_blank">
+                            <svg class="svg-inline--fa fa-instagram fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3 btn-primary" href="https://twitter.com" target="_blank">
+                            <svg class="svg-inline--fa fa-twitter fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3 btn-primary" href="https://www.youtube.com" target="_blank">
+                            <svg class="svg-inline--fa fa-youtube fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-0">Copyright © 2021 | evento2021 - Desenvolvido por DSPD - UEPA</p>
+            </div>
+        </footer>
+        <!-- FIM - Copyright -->
     </body>
 </html>
